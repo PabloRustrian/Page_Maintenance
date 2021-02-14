@@ -123,8 +123,7 @@ html,body,.main {
 {
     content: "";
     font-family: "FontAwesome";
-    position: absolute;
-    animation: gear 50s infinite linear;
+    position: absolute;   
     transform-origin: center;
     z-index: 0;
     color: #ffffff50;
@@ -134,6 +133,7 @@ html,body,.main {
   font-size: 40em;
   top: 17%;
   right: 65%;
+  animation: gear 50s infinite linear;
 }
 
 .gear2 
@@ -141,6 +141,7 @@ html,body,.main {
   font-size: 25em;
   top: -20%;
   right: 15%;
+  animation: gear 30s infinite linear;
 }
 
 .gear3
@@ -148,6 +149,7 @@ html,body,.main {
   font-size: 15em;
   top: 65%;
   right: 5%;
+  animation: gear 10s infinite linear;
 }
 
 @keyframes carga {
